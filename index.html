@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Padaria | Delícia Artesanal</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Itim&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="pt-br, en-US," />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- MENU PARA DESKTOP -->
+      <header>
+        <a href="#inicio"><img src="imagens/logo.png" class="logo" /></a>
+        <nav class="desktop">
+          <ul>
+            <li><a href="#inicio">Ínicio</a></li>
+            <li><a href="#quemsomos">Quem Somos</a></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <!-- MENU PARA MOBILE -->
+        <div class="mobile">
+          <nav class="navbar">
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#inicio" class="nav-link">Ínicio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#quemsomos" class="nav-link">Quem Somos</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#cardapio" class="nav-link">Cardápio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#contato" class="nav-link">Contato</a>
+              </li>
+            </ul>
+
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- PRIMEIRA PAGINA COM CARROSSEL -->
+      <section class="capa" id="inicio" aria-label="Newest Photos">
+        <div class="carrossel" data-carrossel>
+          <button class="carrossel-button prev" data-carrossel-button="prev">
+            <img src="imagens/left.png" />
+          </button>
+          <button class="carrossel-button next" data-carrossel-button="next">
+            <img src="imagens/right.png" />
+          </button>
+          <ul data-slides>
+            <li class="slide-capa" data-active>
+              <img src="imagens/capa1.jpg" alt="" />
+            </li>
+            <li class="slide-capa">
+              <img src="imagens/capa2.jpg" alt="" />
+            </li>
+            <li class="slide-capa"><img src="imagens/capa3.jpg" alt="" /></li>
+            <li class="slide-capa"><img src="imagens/capa4.jpg" alt="" /></li>
+            <li class="slide-capa"><img src="imagens/capa5.jfif" alt="" /></li>
+          </ul>
+        </div>
+
+        <div class="texto-capa">
+          <h1>Padaria e Panificadora Delícia Artesanal</h1>
+          <p>O cacetinho vai deixar você com água na boca</p>
+          <a href="https://menu.ifood.com.br"
+            ><button>Faça seu pedido!</button></a
+          >
+        </div>
+      </section>
+      <!-- SEGUNDA PAGINA QUEM SOMOS -->
+      <section class="quem-somos" id="quemsomos">
+        <div class="sessao-quem-somos">
+          <h2>QUEM SOMOS NÓS?</h2>
+          <p>
+            Bem-vindo à Padaria Delícia Artesanal! Somos mais do que apenas uma
+            padaria; somos um refúgio para os amantes de pães e produtos de
+            confeitaria de qualidade excepcional. Fundada com paixão em 2023,
+            nossa padaria é um local onde tradição e inovação se encontram para
+            criar experiências gastronômicas memoráveis.
+          </p>
+        </div>
+
+        <div class="sessao-quem-somos">
+          <img src="imagens/img-quem-somos.jpg" class="img-quem-somos" />
+        </div>
+      </section>
+      <!-- TERCEIRA PAGINA CARDÁPIO -->
+      <section class="cardapio" id="cardapio">
+        <h1>CARDÁPIO</h1>
+        <div class="linha"></div>
+
+        <div class="salgado">
+          <h2>SALGADOS</h2>
+
+          <div class="espacamento">
+            <div class="fundo-img">
+              <img src="imagens/Bolinha-de-queijo.jpg" />
+              <h3>Bolinha de Queijo</h3>
+              <p>25/uni - R$ 24,99</p>
+              <p>25/uni + Refri - R$ 29,99</p>
+            </div>
+          </div>
+
+          <div class="espacamento">
+            <div class="fundo-img">
+              <img src="imagens/coxinha.png" />
+              <h3>Coxinha</h3>
+              <p>25/uni - R$ 24,99</p>
+              <p>25/uni + Refri - R$ 32,99</p>
+            </div>
+          </div>
+
+          <div class="espacamento">
+            <div class="fundo-img">
+              <img src="imagens/empada.jpg" />
+              <h3>Empadinha</h3>
+              <p>25/uni - R$ 26,75</p>
+              <p>25/uni + Refri - R$ 34,99</p>
+            </div>
+          </div>
+
+          <div class="botao">
+            <a href="https://menu.ifood.com.br"
+              ><button class="peca-ifood">VEJA MAIS PELO IFOOD</button></a
+            >
+          </div>
+        </div>
+
+        <div class="doce">
+          <h2>DOCES</h2>
+
+          <div class="espacamento">
+            <div class="fundo-img2">
+              <img src="imagens/carolina.png" />
+              <h3>Biscoito Carolina</h3>
+              <p>30/uni - R$ 20,99</p>
+              <p>50/uni -R$ 34,99</p>
+            </div>
+          </div>
+
+          <div class="espacamento">
+            <div class="fundo-img2">
+              <img src="imagens/rocambole.png" />
+              <h3>Rocambole</h3>
+              <p>Prestigio - R$ 58,90 kg</p>
+              <p>Chocolate - R$ 63,90 kg</p>
+            </div>
+          </div>
+
+          <div class="espacamento">
+            <div class="fundo-img2">
+              <img src="imagens/samanta.jpg" />
+              <h3>Biscoito Samanta</h3>
+              <p>190g - R$ 11,99</p>
+              <p>1kg - R$ 63,49</p>
+            </div>
+          </div>
+
+          <div class="botao">
+            <a href="https://menu.ifood.com.br/"
+              ><button class="peca-ifood">VEJA MAIS PELO IFOOD</button></a
+            >
+          </div>
+        </div>
+
+        <div class="bolos">
+          <h2>BOLOS</h2>
+
+          <div class="espacamento">
+            <div class="fundo-img3">
+              <img src="imagens/bolo-de-cafe.png" />
+              <h3>Bolo Tradicional</h3>
+              <p>R$ 14,99</p>
+            </div>
+          </div>
+
+          <div class="espacamento">
+            <div class="fundo-img3">
+              <img src="imagens/bolo-de-chocolate.png" />
+              <h3>Bolo de Aniversario</h3>
+              <p>R$ 35,99</p>
+            </div>
+          </div>
+
+          <div class="espacamento">
+            <div class="fundo-img3">
+              <img src="imagens/bolo-de-baunilha.png" />
+              <h3>Bolo Confeitado</h3>
+              <p>R$ 44,99</p>
+            </div>
+          </div>
+
+          <div class="botao">
+            <a href="https://menu.ifood.com.br"
+              ><button class="peca-ifood">VEJA MAIS PELO IFOOD</button></a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- QUARTA PAGINA DEPOIMENTOS -->
+      <section class="depoimentos" id="depoimentos">
+        <h1>DEPOIMENTOS</h1>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+              style="background-color: black"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              style="background-color: black"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+              style="background-color: black"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="d-block w-100" alt="...">
+                “Virei um cliente fiel Depois de experimentar o bolo de café,
+                irei pedir mais vezes.”
+              </h2>
+              <p>-Liedson Silva</p>
+            </div>
+            <div class="carousel-item">
+              <h2 class="d-block w-100" alt="...">
+                “Comi os mine salgado e é uma delicia, recomendo!”
+              </h2>
+              <p>-António Costa</p>
+            </div>
+            <div class="carousel-item">
+              <h2 class="d-block w-100" alt="...">
+                “Comprei Samanta e lembrei o que minha vó fazia é uma delicia!.”
+              </h2>
+              <p>-Jonathas Silva</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- QUINTA PAGINA CONTATOS -->
+      <section class="contato" id="contato">
+        <h1>ENTRE EM CONTATO</h1>
+        <div class="sessao-telefone">
+          <h2>TELEFONE</h2>
+          <p>
+            Padaria: (xx) xxxx-xxxx // (xx) xxxx-xxxx <br />
+            Confeitaria: (x) xxxx-xxxx // (xx) xxxx-xxxx
+          </p>
+          <div class="redes">
+            <h2>SIGA A GENTE NA NOSSAS REDES SOCIAIS</h2>
+            <p>FIQUE POR DENTRO DAS PROMOÇÕES E NOVIDADES</p>
+          </div>
+          <div class="rede-social">
+            <a href="https://www.facebook.com/"
+              ><img src="imagens/Facebook.png"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img src="imagens/instagram.png"
+            /></a>
+            <a href="https://menu.ifood.com.br/"
+              ><img src="imagens/ifood.png"
+            /></a>
+          </div>
+        </div>
+
+        <div class="sessao-mapa">
+          <div>
+            <iframe
+              class="mapa"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.7073713153313!2d-45.19502962374585!3d-22.813304534538556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc45681df6299%3A0xdafd98a36d707d9b!2sSenac%20Guaratinguet%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1693311182537!5m2!1spt-BR!2sbr"
+              width="700"
+              height="600"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- RODAPÉ -->
+      <footer>
+        <p>
+          © 2022, Delícia Artesanal, Por
+          <a href="https://github.com/gustavoamaral21"
+            >Gustavo Amaral Guimarães</a
+          >.
+        </p>
+        <a href="#inicio"><img src="imagens/logo.png" /></a>
+      </footer>
+    </main>
+
+    <script src="js/carrousel.js" defer></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
