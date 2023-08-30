@@ -30,8 +30,8 @@ Neste projeto, utilizei as seguintes linguagens e tecnologias:
 
 ## Licença
 
-TODOS OS DIREITOS RESERVADOS DE IMAGENS
-www.freepik.com
+TODOS OS DIREITOS RESERVADOS DE IMAGENS<br>
+www.freepik.com<br><br>
 PROJETO
 Gustavo Amaral Guimarães
 
