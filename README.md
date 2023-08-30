@@ -32,7 +32,7 @@ Neste projeto, utilizei as seguintes linguagens e tecnologias:
 
 TODOS OS DIREITOS RESERVADOS DE IMAGENS<br>
 www.freepik.com<br><br>
-PROJETO
+PROJETO REALIZADO POR<br>
 Gustavo Amaral Guimarães
 
 ---
